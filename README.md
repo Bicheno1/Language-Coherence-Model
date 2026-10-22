@@ -102,4 +102,5 @@ The model itself only needs `lcm/` and the files in `data/` (`LCM_tables.json`, 
 
 ## License
 
-Derived from Unique Host. See `LICENSE` and `NOTICE`.
+Licensed under the PolyForm Noncommercial License 1.0.0 (see `LICENSE` and `NOTICE`).
+Some source data originates from the Unique Host project (`source_data/`).
