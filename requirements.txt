@@ -1,0 +1,7 @@
+# Needed to regenerate the tables (tools/build_tables.py) and to run the tests
+nltk>=3.8
+openpyxl>=3.1
+# The lcm/ module (table lookup) only uses the standard library.
+# lcm/parse.py (input segmentation) also needs the following; the tests skip it if missing:
+#   spacy>=3.7   and   python -m spacy download en_core_web_sm
+# lcm/narrate.py (text realization) also needs: nltk (WordNet) and lemminflect.

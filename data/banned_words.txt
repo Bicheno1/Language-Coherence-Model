@@ -1,0 +1,15 @@
+# Banned words for the AI-generated corpus (one per line; # = comment). INITIAL and INCOMPLETE list: extend it.
+# It only covers vulgarity. Nationality, religion or human-group terms are NOT listed here: the validator rejects by
+# ENTITY (spaCy: PERSON, NORP, GPE, ORG, FAC, LOC, EVENT, PRODUCT) any sentence that names people, places or groups.
+ass
+asshole
+bastard
+bitch
+cock
+pussy
+slut
+whore
+fuck
+fucking
+shit
+damn

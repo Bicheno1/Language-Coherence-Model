@@ -1,0 +1,12 @@
+{
+ "prompts_version": "1",
+ "seed": 20261004,
+ "words": 60,
+ "calls": 600,
+ "requested_phrases": 5400,
+ "content_phrases": 80,
+ "function_phrases": 80,
+ "per_call": 10,
+ "free_calls": 10,
+ "sha256_prompts": "e846833a5b588e9dcb16eb05b71bebb61dbdf37a942fa1e11427c48d242a260f"
+}

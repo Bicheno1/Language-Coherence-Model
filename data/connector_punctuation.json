@@ -1,0 +1,502 @@
+{
+ "source": "full Brown corpus (57,000 sentences); experiments/exp_connectors.py",
+ "connectors": {
+  "which": {
+   "n": 3561,
+   "comma_after": 0.03,
+   "comma_before": 0.186,
+   "opens": 0.006,
+   "class": "REL"
+  },
+  "and": {
+   "n": 28853,
+   "comma_after": 0.012,
+   "comma_before": 0.218,
+   "opens": 0.043,
+   "class": "CC"
+  },
+  "or": {
+   "n": 4206,
+   "comma_after": 0.014,
+   "comma_before": 0.174,
+   "opens": 0.028,
+   "class": "CC"
+  },
+  "however": {
+   "n": 552,
+   "comma_after": 0.889,
+   "comma_before": 0.661,
+   "opens": 0.321,
+   "class": "CA"
+  },
+  "also": {
+   "n": 1069,
+   "comma_after": 0.059,
+   "comma_before": 0.041,
+   "opens": 0.071,
+   "class": "CC"
+  },
+  "next": {
+   "n": 394,
+   "comma_after": 0.043,
+   "comma_before": 0.028,
+   "opens": 0.089,
+   "class": "CA"
+  },
+  "but": {
+   "n": 4381,
+   "comma_after": 0.016,
+   "comma_before": 0.424,
+   "opens": 0.345,
+   "class": "CC"
+  },
+  "nevertheless": {
+   "n": 73,
+   "comma_after": 0.603,
+   "comma_before": 0.137,
+   "opens": 0.562,
+   "class": "CA"
+  },
+  "regarding": {
+   "n": 40,
+   "comma_after": 0.0,
+   "comma_before": 0.025,
+   "opens": 0.025,
+   "class": "TP"
+  },
+  "when": {
+   "n": 2331,
+   "comma_after": 0.011,
+   "comma_before": 0.115,
+   "opens": 0.251,
+   "class": "SC"
+  },
+  "than": {
+   "n": 1790,
+   "comma_after": 0.001,
+   "comma_before": 0.015,
+   "opens": 0.0,
+   "class": "SC"
+  },
+  "who": {
+   "n": 2252,
+   "comma_after": 0.026,
+   "comma_before": 0.25,
+   "opens": 0.024,
+   "class": "REL"
+  },
+  "after": {
+   "n": 1069,
+   "comma_after": 0.003,
+   "comma_before": 0.121,
+   "opens": 0.238,
+   "class": "SC"
+  },
+  "despite": {
+   "n": 104,
+   "comma_after": 0.01,
+   "comma_before": 0.337,
+   "opens": 0.365,
+   "class": "SC"
+  },
+  "whether": {
+   "n": 286,
+   "comma_after": 0.01,
+   "comma_before": 0.168,
+   "opens": 0.105,
+   "class": "COMP"
+  },
+  "before": {
+   "n": 1016,
+   "comma_after": 0.059,
+   "comma_before": 0.041,
+   "opens": 0.067,
+   "class": "SC"
+  },
+  "first": {
+   "n": 1361,
+   "comma_after": 0.056,
+   "comma_before": 0.022,
+   "opens": 0.056,
+   "class": "CA"
+  },
+  "where": {
+   "n": 937,
+   "comma_after": 0.021,
+   "comma_before": 0.242,
+   "opens": 0.09,
+   "class": "REL"
+  },
+  "earlier": {
+   "n": 146,
+   "comma_after": 0.096,
+   "comma_before": 0.007,
+   "opens": 0.021,
+   "class": "CA"
+  },
+  "meanwhile": {
+   "n": 35,
+   "comma_after": 0.571,
+   "comma_before": 0.114,
+   "opens": 0.629,
+   "class": "CA"
+  },
+  "then": {
+   "n": 1380,
+   "comma_after": 0.146,
+   "comma_before": 0.247,
+   "opens": 0.269,
+   "class": "CA"
+  },
+  "apparently": {
+   "n": 125,
+   "comma_after": 0.08,
+   "comma_before": 0.192,
+   "opens": 0.184,
+   "class": "STANCE"
+  },
+  "specifically": {
+   "n": 38,
+   "comma_after": 0.079,
+   "comma_before": 0.026,
+   "opens": 0.053,
+   "class": "TP"
+  },
+  "too": {
+   "n": 834,
+   "comma_after": 0.174,
+   "comma_before": 0.251,
+   "opens": 0.044,
+   "class": "CC"
+  },
+  "because": {
+   "n": 883,
+   "comma_after": 0.017,
+   "comma_before": 0.194,
+   "opens": 0.082,
+   "class": "SC"
+  },
+  "if": {
+   "n": 2198,
+   "comma_after": 0.015,
+   "comma_before": 0.142,
+   "opens": 0.338,
+   "class": "SC"
+  },
+  "including": {
+   "n": 171,
+   "comma_after": 0.006,
+   "comma_before": 0.69,
+   "opens": 0.006,
+   "class": "TP"
+  },
+  "why": {
+   "n": 404,
+   "comma_after": 0.101,
+   "comma_before": 0.077,
+   "opens": 0.384,
+   "class": "REL"
+  },
+  "although": {
+   "n": 321,
+   "comma_after": 0.006,
+   "comma_before": 0.442,
+   "opens": 0.386,
+   "class": "SC"
+  },
+  "later": {
+   "n": 397,
+   "comma_after": 0.212,
+   "comma_before": 0.023,
+   "opens": 0.103,
+   "class": "CA"
+  },
+  "finally": {
+   "n": 191,
+   "comma_after": 0.319,
+   "comma_before": 0.063,
+   "opens": 0.314,
+   "class": "CA"
+  },
+  "third": {
+   "n": 190,
+   "comma_after": 0.095,
+   "comma_before": 0.011,
+   "opens": 0.053,
+   "class": "CA"
+  },
+  "previously": {
+   "n": 58,
+   "comma_after": 0.052,
+   "comma_before": 0.052,
+   "opens": 0.052,
+   "class": "CA"
+  },
+  "instead": {
+   "n": 173,
+   "comma_after": 0.075,
+   "comma_before": 0.173,
+   "opens": 0.277,
+   "class": "CA"
+  },
+  "plus": {
+   "n": 72,
+   "comma_after": 0.0,
+   "comma_before": 0.375,
+   "opens": 0.042,
+   "class": "CC"
+  },
+  "except": {
+   "n": 181,
+   "comma_after": 0.011,
+   "comma_before": 0.309,
+   "opens": 0.066,
+   "class": "SC"
+  },
+  "providing": {
+   "n": 59,
+   "comma_after": 0.0,
+   "comma_before": 0.153,
+   "opens": 0.051,
+   "class": "SC"
+  },
+  "whom": {
+   "n": 146,
+   "comma_after": 0.055,
+   "comma_before": 0.096,
+   "opens": 0.027,
+   "class": "REL"
+  },
+  "rather": {
+   "n": 373,
+   "comma_after": 0.048,
+   "comma_before": 0.158,
+   "opens": 0.07,
+   "class": "CA"
+  },
+  "actually": {
+   "n": 166,
+   "comma_after": 0.205,
+   "comma_before": 0.054,
+   "opens": 0.235,
+   "class": "CA"
+  },
+  "moreover": {
+   "n": 88,
+   "comma_after": 0.943,
+   "comma_before": 0.17,
+   "opens": 0.784,
+   "class": "CA"
+  },
+  "somewhat": {
+   "n": 127,
+   "comma_after": 0.016,
+   "comma_before": 0.094,
+   "opens": 0.055,
+   "class": "TP"
+  },
+  "once": {
+   "n": 499,
+   "comma_after": 0.082,
+   "comma_before": 0.078,
+   "opens": 0.168,
+   "class": "SC"
+  },
+  "clearly": {
+   "n": 128,
+   "comma_after": 0.062,
+   "comma_before": 0.039,
+   "opens": 0.07,
+   "class": "STANCE"
+  },
+  "until": {
+   "n": 461,
+   "comma_after": 0.011,
+   "comma_before": 0.091,
+   "opens": 0.063,
+   "class": "SC"
+  },
+  "thus": {
+   "n": 312,
+   "comma_after": 0.256,
+   "comma_before": 0.071,
+   "opens": 0.542,
+   "class": "CA"
+  },
+  "certainly": {
+   "n": 143,
+   "comma_after": 0.091,
+   "comma_before": 0.056,
+   "opens": 0.196,
+   "class": "CA"
+  },
+  "especially": {
+   "n": 162,
+   "comma_after": 0.006,
+   "comma_before": 0.506,
+   "opens": 0.037,
+   "class": "CA"
+  },
+  "unless": {
+   "n": 101,
+   "comma_after": 0.01,
+   "comma_before": 0.218,
+   "opens": 0.129,
+   "class": "SC"
+  },
+  "whose": {
+   "n": 251,
+   "comma_after": 0.0,
+   "comma_before": 0.295,
+   "opens": 0.008,
+   "class": "REL"
+  },
+  "consequently": {
+   "n": 31,
+   "comma_after": 0.484,
+   "comma_before": 0.129,
+   "opens": 0.452,
+   "class": "CA"
+  },
+  "indeed": {
+   "n": 162,
+   "comma_after": 0.481,
+   "comma_before": 0.222,
+   "opens": 0.302,
+   "class": "CA"
+  },
+  "anyway": {
+   "n": 46,
+   "comma_after": 0.522,
+   "comma_before": 0.283,
+   "opens": 0.196,
+   "class": "TP"
+  },
+  "second": {
+   "n": 373,
+   "comma_after": 0.105,
+   "comma_before": 0.013,
+   "opens": 0.067,
+   "class": "CA"
+  },
+  "hence": {
+   "n": 58,
+   "comma_after": 0.328,
+   "comma_before": 0.155,
+   "opens": 0.569,
+   "class": "CA"
+  },
+  "unfortunately": {
+   "n": 33,
+   "comma_after": 0.636,
+   "comma_before": 0.152,
+   "opens": 0.606,
+   "class": "STANCE"
+  },
+  "save": {
+   "n": 62,
+   "comma_after": 0.0,
+   "comma_before": 0.0,
+   "opens": 0.048,
+   "class": "SC"
+  },
+  "nor": {
+   "n": 195,
+   "comma_after": 0.015,
+   "comma_before": 0.246,
+   "opens": 0.205,
+   "class": "CC"
+  },
+  "therefore": {
+   "n": 205,
+   "comma_after": 0.517,
+   "comma_before": 0.312,
+   "opens": 0.268,
+   "class": "CA"
+  },
+  "besides": {
+   "n": 66,
+   "comma_after": 0.379,
+   "comma_before": 0.167,
+   "opens": 0.621,
+   "class": "CA"
+  },
+  "otherwise": {
+   "n": 86,
+   "comma_after": 0.267,
+   "comma_before": 0.035,
+   "opens": 0.256,
+   "class": "CA"
+  },
+  "obviously": {
+   "n": 114,
+   "comma_after": 0.211,
+   "comma_before": 0.088,
+   "opens": 0.237,
+   "class": "STANCE"
+  },
+  "e.g.": {
+   "n": 32,
+   "comma_after": 0.688,
+   "comma_before": 0.688,
+   "opens": 0.0,
+   "class": "TP"
+  },
+  "i.e.": {
+   "n": 43,
+   "comma_after": 0.953,
+   "comma_before": 0.674,
+   "opens": 0.07,
+   "class": "TP"
+  },
+  "namely": {
+   "n": 33,
+   "comma_after": 0.606,
+   "comma_before": 0.727,
+   "opens": 0.061,
+   "class": "TP"
+  },
+  "till": {
+   "n": 49,
+   "comma_after": 0.02,
+   "comma_before": 0.102,
+   "opens": 0.041,
+   "class": "SC"
+  },
+  "whenever": {
+   "n": 43,
+   "comma_after": 0.023,
+   "comma_before": 0.093,
+   "opens": 0.326,
+   "class": "SC"
+  },
+  "furthermore": {
+   "n": 39,
+   "comma_after": 0.949,
+   "comma_before": 0.051,
+   "opens": 0.949,
+   "class": "CA"
+  },
+  "similarly": {
+   "n": 36,
+   "comma_after": 0.389,
+   "comma_before": 0.028,
+   "opens": 0.472,
+   "class": "CA"
+  },
+  "accordingly": {
+   "n": 31,
+   "comma_after": 0.548,
+   "comma_before": 0.0,
+   "opens": 0.613,
+   "class": "CA"
+  },
+  "whereas": {
+   "n": 41,
+   "comma_after": 0.122,
+   "comma_before": 0.512,
+   "opens": 0.293,
+   "class": "SC"
+  }
+ }
+}

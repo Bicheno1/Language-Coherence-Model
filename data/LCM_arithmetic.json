@@ -1,0 +1,42 @@
+{
+  "version": "0.1",
+  "description": "LCM arithmetic data. Operations are defined only by their relation to another (base / repite / inverso_de); the precedence level comes from that chain and is not written down. Numbers are calculated digit by digit with fact tables built by counting (lcm/arithmetic.py).",
+  "operations": {
+    "add":      {"base": true,            "words": ["plus"],                                      "symbols": ["+"]},
+    "subtract": {"inverse_of": "add",     "words": ["minus"],                                     "symbols": ["-"]},
+    "multiply": {"repeats": "add",         "words": ["times", "multiplied by"],                    "symbols": ["*", "x"]},
+    "divide":   {"inverse_of": "multiply","words": ["divided by", "over"],                        "symbols": ["/"]},
+    "power":    {"repeats": "multiply",    "words": ["to the power of", "raised to the power of", "raised to"], "symbols": ["^"]},
+    "root":     {"inverse_of": "power"}
+  },
+  "unary": {
+    "prefixes": {"the square root of": {"op": "root", "n": 2}, "square root of": {"op": "root", "n": 2},
+                 "the cube root of": {"op": "root", "n": 3},   "cube root of": {"op": "root", "n": 3},
+                 "the square of": {"op": "power", "n": 2},     "the cube of": {"op": "power", "n": 3}},
+    "suffixes":  {"squared": {"op": "power", "n": 2}, "cubed": {"op": "power", "n": 3}}
+  },
+  "numbers": {
+    "units": {"zero": 0, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11,
+                 "twelve": 12, "thirteen": 13, "fourteen": 14, "fifteen": 15, "sixteen": 16, "seventeen": 17, "eighteen": 18, "nineteen": 19},
+    "tens":  {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90},
+    "scales":  {"hundred": 100, "thousand": 1000, "million": 1000000},
+    "sign":    ["negative"]
+  },
+  "imperatives": [
+    {"pattern": "^add (.+?) to (.+)$",        "template": "\\2 plus \\1"},
+    {"pattern": "^subtract (.+?) from (.+)$", "template": "\\2 minus \\1"},
+    {"pattern": "^multiply (.+?) by (.+)$",   "template": "\\1 times \\2"},
+    {"pattern": "^divide (.+?) by (.+)$",     "template": "\\1 divided by \\2"}
+  ],
+  "opening_phrases": ["what is", "what's", "calculate", "compute", "how much is"],
+  "root_decimals": 2,
+  "limits": {"steps": 3000000, "exponent": 500, "digits": 3000},
+  "functions": {
+    "double":    {"parameters": ["x"],      "body": "x plus x"},
+    "square":    {"parameters": ["x"],      "body": "x times x"},
+    "cube":      {"parameters": ["x"],      "body": "square(x) times x"},
+    "sum2":      {"parameters": ["a", "b"], "body": "a plus b"},
+    "perimeter": {"parameters": ["a", "b"], "body": "2 times sum2(a, b)"},
+    "hypot2":    {"parameters": ["a", "b"], "body": "square(a) plus square(b)"}
+  }
+}
